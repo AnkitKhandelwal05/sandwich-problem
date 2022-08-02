@@ -1,0 +1,16 @@
+var bread=prompt("ENTER MO. OF BREADS");
+var cheese= prompt("ENTER NO. OF CHEESE");
+function sandwich(bread, cheese){
+    if(bread%2==0)
+    {sandwich=bread/2}
+    else{
+        bread= bread-1;
+        sandwich=bread/2;
+        
+    }
+    if (cheese<=sandwich){
+        console.log(cheese)
+    }
+    else{console.log(sandwich)}
+}
+sandwich(bread, cheese);
